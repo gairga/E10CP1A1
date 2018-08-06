@@ -1,11 +1,13 @@
 class MiClase
  	attr_accessor :name
+ 	#attr_reader :name
+  	attr_writer :name
 	def initialize(name)
 		@name = name
 	end
 	
 	def self.saludar
-		puts "Hola! Soy la clase #{name}"
+		puts "Hola! Soy la clase #{self.name}"
 	end
 end
 

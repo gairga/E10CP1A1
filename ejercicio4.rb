@@ -1,8 +1,8 @@
 #Transformar la clase Semana en un módulo y obtener la misma salida:
 module Semana
-	@@primer_dia = 'Lunes'
+	PRIMMER_DIA = 'Lunes'
 	def self.primer_dia
-		@@primer_dia
+		PRIMMER_DIA
 	end
 	def self.en_un_meses
 		"Un mes tiene 4 semanas."

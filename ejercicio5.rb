@@ -23,6 +23,7 @@ class Conejo < Animal
 end
 
 conejo = Conejo.new('Bugs Bunny')
-puts conejo.saludar
-puts conejo.dieta
+conejo.saludar
+conejo.dieta
+puts conejo.is_a? Animal
 puts Herviboro.definir
